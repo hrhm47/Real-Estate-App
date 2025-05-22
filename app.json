@@ -1,23 +1,24 @@
 {
   "expo": {
-    "name": "Real-Estate-App", // app display name Shown on Home Screen
-    "slug": "Real-Estate-App", // unique identifier for the app, by Expo
+    "name": "Real-Estate-App",
+    "slug": "Real-Estate-App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "realestateapp", // use for deep linking
-    "userInterfaceStyle": "automatic", // automatic, light, dark theme colors based on system
-    "newArchEnabled": true, // new architecture for react native as it removes the previous one (bridge one) 
-    // now we have facbric, JSI, turbo modules ( for native modules ), and native modules without bridge etc.
+    "scheme": "realestateapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.haseeb26.Real-Estate-App"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.haseeb26.RealEstateApp"
     },
     "web": {
       "bundler": "metro",
