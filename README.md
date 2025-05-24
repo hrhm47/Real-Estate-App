@@ -22,3 +22,7 @@ This is a Hobby and Learning Project, in which I build a full-stack Real Estate 
 - This project is part of my learning towards full stack app development, and I am learning this project with JS Mastery from Youtube. 
 
 - My goal is to practice the standard and norms of app development and I very very hopefull that after such learning projects I will be more confident and comfartable while writing and working on my own projects.
+
+### Project Images
+
+![alt text](ProjectScreenShots/splashScreen.png)
