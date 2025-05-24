@@ -27,7 +27,9 @@ This is a Hobby and Learning Project, in which I build a full-stack Real Estate 
 
 <!-- ![alt text](ProjectScreenShots/splashScreen.png) -->
 1. Splash Screen 
-   <img src="ProjectScreenShots/splashScreen.png" width=50% height=50%>
+
+- <img src="ProjectScreenShots/splashScreen.png" width=25% height=25%>
 
 2. Sgin-in Screen
-   <img src="ProjectScreenShots/SignIn.png" width=50% height=50%>
+
+- <img src="ProjectScreenShots/SignIn.png" width=25% height=25%>
