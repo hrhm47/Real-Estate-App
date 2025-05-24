@@ -25,4 +25,9 @@ This is a Hobby and Learning Project, in which I build a full-stack Real Estate 
 
 ### Project Images
 
-![alt text](ProjectScreenShots/splashScreen.png)
+<!-- ![alt text](ProjectScreenShots/splashScreen.png) -->
+1. Splash Screen 
+   <img src="ProjectScreenShots/splashScreen.png" width=50% height=50%>
+
+2. Sgin-in Screen
+   <img src="ProjectScreenShots/SignIn.png" width=50% height=50%>
