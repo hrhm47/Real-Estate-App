@@ -23,6 +23,6 @@ export default function RootLayout() {
   },[fontsLoaded]);
 
   if (!fontsLoaded) return null;
-
-  return <Stack />;
+  // headerShown:false -> to remove default headers from the top of screen
+  return <Stack screenOptions={{headerShown:false}}/>;
 }
