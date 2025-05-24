@@ -1,50 +1,24 @@
-# Welcome to your Expo app 👋
+# Welcome to Real Estate app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a Hobby and Learning Project, in which I build a full-stack Real Estate application with React Native, featuring Google authentication, dynamic property listings, and user profiles. Designed with modern tools like Expo SDK 52, Appwrite, Tailwind CSS, and TypeScript for a seamless and scalable experience.
 
-## Get started
+## Features 
+- Authentication with Google: Secure and seamless user sign-ins using Google’s authentication service.
+- Home Page: Displays the latest and recommended properties with powerful search and filter functionality.
 
-1. Install dependencies
+- Explore Page: Allows users to browse all types of properties with a clean and intuitive interface.
 
-   ```bash
-   npm install
-   ```
+- Property Details Page: Provides comprehensive information about individual properties, including images and key details.
 
-2. Start the app
+- Profile Page: Customizable user settings and profile management
 
-   ```bash
-   npx expo start
-   ```
+- Centralized Data Fetching: Custom-built solution inspired by TanStack’s useQuery for efficient API calls.
 
-In the output, you'll find options to open the app in a
+- and many more, including code architecture and reusability
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Credits
 
-## Get a fresh project
+- This project is part of my learning towards full stack app development, and I am learning this project with JS Mastery from Youtube. 
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- My goal is to practice the standard and norms of app development and I very very hopefull that after such learning projects I will be more confident and comfartable while writing and working on my own projects.
