@@ -13,8 +13,8 @@ const TabIcon = ({ focused, icon, title }: { boolean; any; string }) => (
         />
         <Text
             className={`${focused
-                    ? "text-primary-300 font-rubik-medium"
-                    : "text-black-200 font-rubik-mediu"
+                ? "text-primary-300 font-rubik-medium"
+                : "text-black-200 font-rubik-mediu"
                 } text-xs w-full text-center mt-1 `}
         >
             {title}
@@ -31,12 +31,11 @@ const TabsLayout = () => {
                     backgroundColor: "white",
                     position: "abosolute",
                     borderTopColor: "#0061FF1A",
-                    borderTopWidth: 2,
+                    borderTopWidth: 1,
                     minHeight: 70,
                 },
             }}
         >
-            {/*home tab*/}
             <Tabs.Screen
                 name="index"
                 options={{
@@ -48,7 +47,7 @@ const TabsLayout = () => {
                 }}
             />
 
-            {/*Explore tab*/}
+
             <Tabs.Screen
                 name="explore"
                 options={{
@@ -60,7 +59,7 @@ const TabsLayout = () => {
                 }}
             />
 
-            {/*Profile tab*/}
+
             <Tabs.Screen
                 name="profile"
                 options={{
