@@ -9,7 +9,7 @@ import {
   SafeAreaView,
   Text,
   TouchableOpacity,
-  View,
+  View
 } from "react-native";
 
 export default function Index() {
@@ -60,7 +60,7 @@ export default function Index() {
               </View>
 
               <FlatList
-                data={[1, 2, 3, 4]}
+                data={[31, 32, 33, 34]}
                 renderItem={({ item }) => <FeaturedCard />}
                 keyExtractor={(item) => item.toString()}
                 horizontal
