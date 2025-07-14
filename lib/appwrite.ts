@@ -1,6 +1,6 @@
 import * as Linking from 'expo-linking';
 import { openAuthSessionAsync } from 'expo-web-browser';
-import { Account, Avatars, Client, Databases, OAuthProvider } from 'react-native-appwrite';
+import { Account, Avatars, Client, Databases, OAuthProvider, Query } from 'react-native-appwrite';
 
 export const config = {
     platform: 'com.haseeb.realestate',
@@ -87,3 +87,56 @@ export async function getCurrentUser() {
 
     }
 }
+
+export async function getLatestProperties() {
+    try {
+        const result = await databases.listDocuments(
+            config.databaseId!,
+            config.propertiesCollectionId!,
+            [Query.orderAsc('$createdAt'), Query.limit(5)]
+        )
+        return result.documents;
+    } catch (error) {
+        console.error("Error fetching latest properties:", error);
+        return [];
+
+    }
+}
+
+export async function getProperties({ filter, query, limit }: {
+    filter: string;
+    query: string;
+    limit: number;
+}) {
+    try {
+        const buildQuery = [Query.orderAsc('$createdAt')];
+
+        if (filter && filter !== 'All') {
+            buildQuery.push(Query.equal('type', filter))
+        }
+
+        if (query) {
+            buildQuery.push(
+                Query.search('name', query),
+                Query.search('address', query),
+                Query.search('type', query),
+            )
+        }
+
+        if (limit) {
+            buildQuery.push(Query.limit(limit));
+        }
+
+        const result = await databases.listDocuments(
+            config.databaseId!,
+            config.propertiesCollectionId!,
+            buildQuery,
+        )
+        return result.documents;
+
+    } catch (error) {
+        console.error("Error fetching properties:", error);
+        return [];
+    }
+}
+
