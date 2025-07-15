@@ -33,8 +33,7 @@ Built using:
 
 - My goal is to practice the standard and norms of app development and I very very hopefull that after such learning projects I will be more confident and comfartable while writing and working on my own projects.
 
-### Project Images
+### 📸 Screenshots
 
-📸 Screenshots
 <table> <tr> <td align="center"><b>Splash Screen</b><br><img src="ProjectScreenShots/splashScreen.png" width="300"/></td> <td align="center"><b>Sign-in Screen</b><br><img src="ProjectScreenShots/SignIn.png" width="300"/></td> </tr> <tr> <td align="center"><b>Home Screen</b><br><img src="ProjectScreenShots/home.png" width="300"/></td> <td align="center"><b>Explore Screen</b><br><img src="ProjectScreenShots/Explore.png" width="300"/></td> </tr> <tr> <td align="center"><b>Details Screen</b><br><img src="ProjectScreenShots/detailsScreen.png" width="300"/></td> <td align="center"><b>Settings Screen</b><br><img src="ProjectScreenShots/settings.png" width="300"/></td> </tr> </table>
 
