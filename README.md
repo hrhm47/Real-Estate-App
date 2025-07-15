@@ -33,3 +33,20 @@ This is a Hobby and Learning Project, in which I build a full-stack Real Estate 
 2. Sgin-in Screen
 
 - <img src="ProjectScreenShots/SignIn.png" width=25% height=25%>
+
+3. Home Screen
+
+- <img src="ProjectScreenShots/home.png" widht=25% height=25%>
+
+4. Explore Screen
+
+- <img src="ProjectScreenShots/Explore.png" widht=25% height=25%>
+
+5. Details Screen
+
+- <img src="ProjectScreenShots/detailsScreen.png" widht=25% height=25%>
+
+6. Settings Screen
+
+- <img src="ProjectScreenShots/settings.png" widht=25% height=25%>
+
