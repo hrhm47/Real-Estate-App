@@ -1,6 +1,16 @@
 # Welcome to Real Estate app 👋
 
-This is a Hobby and Learning Project, in which I build a full-stack Real Estate application with React Native, featuring Google authentication, dynamic property listings, and user profiles. Designed with modern tools like Expo SDK 52, Appwrite, Tailwind CSS, and TypeScript for a seamless and scalable experience.
+This is a hobby and learning project where I built a full-stack real estate application using React Native. The app features Google authentication, dynamic property listings, and user profiles — designed with modern tools for a seamless and scalable experience.
+
+Built using:
+
+- Expo SDK 52
+
+- Appwrite (Backend as a Service)
+
+- Tailwind CSS
+
+- TypeScript
 
 ## Features 
 - Authentication with Google: Secure and seamless user sign-ins using Google’s authentication service.
@@ -25,28 +35,6 @@ This is a Hobby and Learning Project, in which I build a full-stack Real Estate 
 
 ### Project Images
 
-<!-- ![alt text](ProjectScreenShots/splashScreen.png) -->
-1. Splash Screen 
-
-- <img src="ProjectScreenShots/splashScreen.png" width=25% height=25%>
-
-2. Sgin-in Screen
-
-- <img src="ProjectScreenShots/SignIn.png" width=25% height=25%>
-
-3. Home Screen
-
-- <img src="ProjectScreenShots/home.png" widht=25% height=25%>
-
-4. Explore Screen
-
-- <img src="ProjectScreenShots/Explore.png" widht=25% height=25%>
-
-5. Details Screen
-
-- <img src="ProjectScreenShots/detailsScreen.png" widht=25% height=25%>
-
-6. Settings Screen
-
-- <img src="ProjectScreenShots/settings.png" widht=25% height=25%>
+📸 Screenshots
+<table> <tr> <td align="center"><b>Splash Screen</b><br><img src="ProjectScreenShots/splashScreen.png" width="300"/></td> <td align="center"><b>Sign-in Screen</b><br><img src="ProjectScreenShots/SignIn.png" width="300"/></td> </tr> <tr> <td align="center"><b>Home Screen</b><br><img src="ProjectScreenShots/home.png" width="300"/></td> <td align="center"><b>Explore Screen</b><br><img src="ProjectScreenShots/Explore.png" width="300"/></td> </tr> <tr> <td align="center"><b>Details Screen</b><br><img src="ProjectScreenShots/detailsScreen.png" width="300"/></td> <td align="center"><b>Settings Screen</b><br><img src="ProjectScreenShots/settings.png" width="300"/></td> </tr> </table>
 
